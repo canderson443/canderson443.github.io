@@ -2,7 +2,7 @@
  @charset "utf-8";
 /* CSS Document */
 html{
-	background-color: #6C3;
+	background-color:#069;
 	height:auto;
 	width: auto;
 	text-align:center;
@@ -13,7 +13,7 @@ html{
 
 
 .header h1 {
-	color:#39F;
+	color:#FFF;
 	
 }
 
@@ -23,7 +23,7 @@ body {
 		bottom:0;
 		right:0;
 		left:0;
-	background-color:#FF6;
+	background-color:#069;
 	margin-leftt:auto;
 	margin-right:auto;
 	max-width:800px;
@@ -76,8 +76,9 @@ body {
 }
 
 .container {
-	background-image: url('http://rack.2.mshcdn.com/media/ZgkyMDE0LzA3LzEwL2I3L05pY2tPZmZlcm1hLjNkZmU2LmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/120ab429/a03/Nick-Offerman-Ron-Swanson.jpg');
+	background-image: url('http://freakify.com/wp-content/uploads/2014/03/2017-600x400.jpg');
 	height: 400px;
+	width: 600px;
 }
 
 .container ul{
