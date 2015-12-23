@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix:after{
+	display:block;
+	clear:both;
+	width:100%;
+}
+
+/*-----Menu Outline-----*/
+.menu-wrap{
+width:100%;
+}
+
+
+.menu{
+	text-align:center;
+}
+
+.menu li{
+	list-style:none;
+	transition:all linear 0.15s;
+}
+
+.menu a {
+	transition:all linear 0.15s;
+	text-decoration:none;
+}
+
+.menu li:hover > a, .menu .current-item > a {
+	text-decoration:none;
+}
+
+/*------Top Level-----*/
+.menu > ul{
+	display:table;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+
+.menu > ul >li{
+	position:relative;
+	display:table-cell;
+	margin:0px;
+	padding:0;
+	width:10%;
+	border-left: solid #A65300;
+	text-align:center;
+	height:40px;
+	vertical-align:bottom;
+}
+
+.menu > ul > li:hover, .menu > ul > .current-item > a{
+	background: #a67c52;
+}
+
+/*-----Bottom Level----*/
+.menu li:hover .sub-menu {
+	z-index:1;
+	opacity:1;
+}
+
+.sub-menu{
+	width:100%;
+	padding:0px;
+	position:absolute;
+	top:100%;
+	left:0px;
+	z-index:-1;
+	opacity:0;
+	transition:opacity linear 0.15s;
+	background: #a67c52;
+	text-align:center;
+	border-top:solid #A65300 thick;
+}
+
+.sub-menu li{
+	display:table;
+	text-align:center;
+	width:80%;
+	border-top:solid #9f711a thin;
+	margin:auto;
+}
+
+.sub-menu a{
+	display:table;
+	height:40px;
+	vertical-align: middle;
+	width:100%;
+	text-align:center;
+}
+
+.sub-menu li:hover, .sub-menu .current-item a {
+	background-color: #754c24;
+}
+
+
+
+/*------Anchorman submenu-------*/
+.sub-menu:hover .Anchorman:hover .submenu2 {
+	z-index:1;
+	opacity:1;
+}
+.submenu2 {
+	width:100%;
+	padding:0px;
+	position:absolute;
+	top:-4%;
+	left:270px;
+	z-index:-1;
+	opacity:0;
+	transition:opacity linear 0.15s;
+	background: #a67c52;
+	text-align:center;
+	border-top:solid #A65300 thick;
+}
+
+.submenu2 li{
+	display:table;
+	text-align:center;
+	width:80%;
+	border-top:solid #9f711a thin;
+	margin:auto;
+}
+
+.submenu2 a{
+	display:table;
+	height:40px;
+	vertical-align: middle;
+	width:100%;
+	text-align:center;
+}
+
+.submenu2 li:hover, .submenu2 .current-item a {
+	background-color: #754c24;
+}
