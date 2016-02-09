@@ -264,7 +264,6 @@ color:#FC0;
 	width: 32.2033%;
 	display: block;
 	margin-top:20px;
-	
 	border:#FC3 solid;
 }
 
@@ -296,6 +295,7 @@ color:#FC0;
 	text-align:center;
 	color:#FC0;
 	width: 32.2033%;
+	text-align:left;
 }	
 
 #LayoutDiv5 li {
@@ -307,7 +307,7 @@ color:#FC0;
 	float: left;
 	width: 32.2033%;
 	display: block;
-	height: 520px;
+	height: 450px;
 	background-color:black;
 	border:solid #FC0;
 	margin-top:-624px;
