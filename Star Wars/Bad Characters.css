@@ -134,46 +134,45 @@ color:#FC0;
 	text-align:center;
 	height:50px;
 }
-#LayoutDiv3 {
+#LayoutDiv3{
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	margin-top:20px;
-	color:#FC0;
 }
 
 }
-#LayoutDiv4{
+
+#LayoutDiv4 {
 	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
+	float:left;
+	height:300px;
+	border:solid #FC0;
+	margin-top:0px;
+	display:block;
+	width:100%;
+}	
 #LayoutDiv5{
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 58.3333%;
+	width: 100%;
 	display: block;
 }
 #LayoutDiv6{
 	clear: both;
 	float: left;
-	margin-left: 41.6666%;
-	width: 37.5%;
+	margin-left: 0;
+	width: 100%;
 	display: block;
-	
 }
 #LayoutDiv7{
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 58.3333%;
+	width: 100%;
 	display: block;
-	
 }
 
 }
@@ -207,8 +206,8 @@ color:#FC0;
 #LayoutDiv3 {
 	clear: both;
 	float: left;
-	margin-left: 25.641%;
-	width: 48.7179%;
+	margin-left: 0;
+	width: 100%;
 	display: block;
 }
 #LayoutDiv4 {
@@ -271,22 +270,31 @@ color:#FC0;
 	text-align:center;
 	height:50px;
 }
+
 #LayoutDiv3 {
 	clear: both;
+	
 	float: left;
-	margin-left: 33.8983%;
-	width: 32.2033%;
+	
+	margin-left: 0;
+	
+	width: 100%;
+	
 	display: block;
-	margin-top:20px;
-	border:#FC3 solid;
-}
+	
+}	
+
+
+
 
 #LayoutDiv4 {
 	clear: both;
-	float: left;
-	margin-left: 25.4237%;
-	width: 49.1525%;
-	display: block;
+	float:left;
+	height:300px;
+	border:solid #FC0;
+	margin-top:-477px;
+	display:block;
+	width: 32.2033%;
 }	
 
 #LayoutDiv4 img{
@@ -296,28 +304,45 @@ color:#FC0;
 #LayoutDiv5 {
 	clear: both;
 	float: left;
-	margin-left: 25.4237%;
-	width: 49.1525%;
 	display: block;
+	height: 300px;
+	background-color:black;
+	border:solid #FC0;
+	margin-top:-160px;
+	text-align:center;
+	color:#FC0;
+	width: 32.2033%;
+	text-align:left;
 }	
 
+#LayoutDiv5 li {
+	margin-top:8px;
+}
 
 #LayoutDiv6 {
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 1.6949%;
-	width: 23.7288%;
+	width: 32.2033%;
 	display: block;
+	height: 450px;
+	background-color:black;
+	border:solid #FC0;
+	margin-top:-624px;
+	text-align:center;
+	color:#FC0;
+	margin-left: 67.7966%;
 }	
 
 #LayoutDiv7 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 23.7288%;
+	margin-left: 33.8983%;
+	width: 32.2033%;
 	display: block;
+	margin-top:-130px;
+	border:solid #FC0;
+	
 }	
-
 
 
 }

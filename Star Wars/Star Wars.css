@@ -125,6 +125,7 @@ color:#FC0;
 	color:#FC0;
 	text-align:center;
 }
+
 #LayoutDiv2 {
 	clear: both;
 	float: left;
@@ -137,22 +138,29 @@ color:#FC0;
 #LayoutDiv3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
 	width: 100%;
 	display: block;
 	margin-top:20px;
+	text-align:center;
 }
 
+#LayoutDiv3 img{
+width:85%;
+height:450px;
+text-align:center;
+border:solid #FC0;
 }
 
 #LayoutDiv4 {
 	clear: both;
 	float:left;
-	height:300px;
+	height:0px;
 	border:solid #FC0;
 	margin-top:0px;
 	display:block;
 	width:100%;
+	z-index:0;
+	opacity:0;
 }	
 #LayoutDiv5{
 	clear: both;
@@ -160,20 +168,42 @@ color:#FC0;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	margin-top:500px;
+	color:#FC0;
+	border: solid #FC0;
 }
+#LayoutDiv5 h2{
+	text-align:center;
+}
+
 #LayoutDiv6{
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	text-align:center;
+	border:solid #FC0;
+	color:#FC0;
+	background-color:#000;
+	margin-top:-780px;
+	
 }
+
+
 #LayoutDiv7{
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	height:100px;
+	margin-top:20px;
+}
+
+#LayoutDiv7 img{
+	height:100px;
+	width:100%;
 }
 
 }
@@ -199,7 +229,7 @@ color:#FC0;
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width:100%;
 	display: block;
 	text-align:center;
 	height:50px;
@@ -215,8 +245,13 @@ color:#FC0;
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
 	display: block;
+	border:solid #FC0;
+	opacity:1;
+	z-index:1;
+	height:300px;
+	
+	
 }
 #LayoutDiv5 {
 	clear: both;
@@ -228,10 +263,16 @@ color:#FC0;
 #LayoutDiv6 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	width: 48.7179%;
 	display: block;
+	border: solid #FC0;
+	margin-left: 51.282%;
 }
+
+#LayoutDiv6 iframe{
+	width:50%
+}
+
 #LayoutDiv7 {
 	clear: both;
 	float: left;
@@ -278,7 +319,6 @@ color:#FC0;
 	width: 32.2033%;
 	display: block;
 	margin-top:20px;
-	border:#FC3 solid;
 }
 
 
@@ -289,9 +329,11 @@ color:#FC0;
 	float:left;
 	height:300px;
 	border:solid #FC0;
-	margin-top:-477px;
+	margin-top:-457px;
 	display:block;
 	width: 32.2033%;
+	z-index:1;
+	opacity:1;
 }	
 
 #LayoutDiv4 img{
@@ -305,7 +347,7 @@ color:#FC0;
 	height: 300px;
 	background-color:black;
 	border:solid #FC0;
-	margin-top:-160px;
+	margin-top:-140px;
 	text-align:center;
 	color:#FC0;
 	width: 32.2033%;
@@ -324,7 +366,7 @@ color:#FC0;
 	height: 450px;
 	background-color:black;
 	border:solid #FC0;
-	margin-top:-624px;
+	margin-top:-622px;
 	text-align:center;
 	color:#FC0;
 	margin-left: 67.7966%;
@@ -333,11 +375,16 @@ color:#FC0;
 #LayoutDiv7 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 33.8983%;
+	width: 66.1016%;
 	display: block;
+	margin-top:-150px;
+	border:solid #FC0;
+	height:150px;
 }	
 
-
+#LayoutDiv7 img{
+	height:150px;
+}
 
 }
