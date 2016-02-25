@@ -137,21 +137,21 @@ color:#FC0;
 #LayoutDiv3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 25.4237%;
+	width: 57.6271%;
 	display: block;
 	margin-top:20px;
 	color:#FC0;
 }
 
-}
+
 
 #LayoutDiv4 {
 	clear: both;
 	float:left;
 	height:300px;
 	border:solid #FC0;
-	margin-top:0px;
+	margin-top:20px;
 	display:block;
 	width:100%;
 }	
