@@ -78,9 +78,9 @@ color:#FC0;
 	z-index:-1;
 	opacity:0;
 	transition:opacity linear 0.15s;
-	background:#666;
+	background:#000;
 	text-align:center;
-	border:#FC0 thick;
+	border:solid #FC0;
 	
 }
 
@@ -101,7 +101,7 @@ color:#FC0;
 }
 
 .sub-menu li:hover, .sub-menu .current-item a {
-	background-color: #754c24;
+	background-color:#333;
 }
 
 
