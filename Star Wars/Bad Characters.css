@@ -134,12 +134,14 @@ color:#FC0;
 	text-align:center;
 	height:50px;
 }
-#LayoutDiv3{
+#LayoutDiv3 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	margin-top:20px;
+	color:#FC0;
 }
 
 }
@@ -206,15 +208,16 @@ color:#FC0;
 #LayoutDiv3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 25.641%;
+	width: 48.7179%;
 	display: block;
+}
 }
 #LayoutDiv4 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 25.4237%;
+	width: 57.6271%;
 	display: block;
 }
 #LayoutDiv5 {
@@ -273,15 +276,14 @@ color:#FC0;
 
 #LayoutDiv3 {
 	clear: both;
-	
 	float: left;
-	
-	margin-left: 0;
-	
-	width: 100%;
-	
+	margin-left: 33.8983%;
+	width: 32.2033%;
 	display: block;
-	
+	margin-top:20px;
+	border:#FC3 solid;
+	height:100px;
+	margin-bottom:20px;
 }	
 
 
@@ -291,15 +293,11 @@ color:#FC0;
 	clear: both;
 	float:left;
 	height:300px;
-	border:solid #FC0;
-	margin-top:-477px;
 	display:block;
-	width: 32.2033%;
+	width:100%;
+	margin-top:50px;
 }	
 
-#LayoutDiv4 img{
-	height:300px;
-}
 
 #LayoutDiv5 {
 	clear: both;
