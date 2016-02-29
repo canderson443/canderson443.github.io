@@ -309,17 +309,22 @@ border:solid #FC0;
 #LayoutDiv3{
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 33.8983%;
+	width: 32.2033%;
 	display: block;
+}
+#LayoutDiv3 img{
+width:100%;
 }
 
 #LayoutDiv4{
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 32.2033%;
 	display: block;
+	margin-top:-455px;
+	border:solid #FC0;
 }
 
 #LayoutDiv4 img{
