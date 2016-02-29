@@ -1,0 +1,358 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+html{
+	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/star-wars-wallpaper-11.jpg');
+}
+
+/*------Top Level-----*/
+.menu > ul{
+	display:table;
+	padding:0;
+	margin:0;
+	text-align:center;
+	background-color:#000;
+	
+	width:100%;
+}
+
+.menu a{
+text-decoration:none;
+color:#FC0;
+}
+
+.menu > ul >li{
+	position:relative;
+	display:table-cell;
+	margin:0px;
+	padding:0;
+	width:25%;
+	border: solid #FC0;
+	text-align:center;
+	height:40px;
+	vertical-align:bottom;
+	border-radius:10px;
+}
+
+.menu > ul > li:hover, .menu > ul > .current-item > a{
+	background:#666;
+}
+
+/*-----Bottom Level----*/
+.menu li:hover .sub-menu {
+	z-index:1;
+	opacity:1;
+}
+
+.sub-menu{
+	width:100%;
+	padding:0px;
+	position:absolute;
+	top:100%;
+	left:0px;
+	z-index:-1;
+	opacity:0;
+	transition:opacity linear 0.15s;
+	background:#000;
+	text-align:center;
+	border:solid #FC0;
+	
+}
+
+.sub-menu li{
+	display:table;
+	text-align:center;
+	width:80%;
+	border-top:solid #9f711a thin;
+	margin:auto;
+}
+
+.sub-menu a{
+	display:table;
+	height:40px;
+	vertical-align: middle;
+	width:100%;
+	text-align:center;
+}
+
+.sub-menu li:hover, .sub-menu .current-item a {
+	background-color:#333;
+}
+
+
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#000;
+	color:#FC0;
+	text-align:center;
+}
+
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+	height:50px;
+}
+
+#LayoutDiv3{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv3 img{
+width:85%;
+height:450px;
+text-align:center;
+border:solid #FC0;
+}
+
+#LayoutDiv4{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv5{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv5 h2{
+	text-align:center;
+}
+
+#LayoutDiv6{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv7{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv7 img{
+	height:100px;
+	width:100%;
+}
+
+}
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width:100%;
+	display: block;
+	text-align:center;
+	height:50px;
+}
+
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 25.641%;
+	width: 48.7179%;
+	display: block;
+}
+
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv6 iframe{
+	width:50%
+}
+
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:#000;
+	color:#FC0;
+	text-align:center;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+	height:50px;
+}
+
+#LayoutDiv3{
+	clear: both;
+	float: left;
+	margin-left: 33.8983%;
+	text-align:center;
+	display: block;
+	border:solid #FC0;
+	color:#FC0;
+	
+
+	width: 32.2033%;
+	
+
+}
+
+#LayoutDiv4{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 49.1525%;
+	display: block;
+}
+
+#LayoutDiv4 img{
+	height:300px;
+}
+
+#LayoutDiv5{
+	clear: both;
+	float: left;
+	margin-left: 50.8474%;
+	width: 49.1525%;
+	display: block;
+}
+
+#LayoutDiv5 li {
+	margin-top:8px;
+}
+
+#LayoutDiv6{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 49.1525%;
+	display: block;
+}
+
+#LayoutDiv7{
+	clear: both;
+	float: left;
+	margin-left: 50.8474%;
+	width: 49.1525%;
+	display: block;
+}
+
+#LayoutDiv7 img{
+	height:150px;
+}
+
+}
