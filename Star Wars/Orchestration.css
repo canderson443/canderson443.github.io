@@ -191,6 +191,14 @@ border:solid #FC0;
 	width:100%;
 }
 
+#LayoutDiv8{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
 }
 
 
@@ -257,6 +265,14 @@ border:solid #FC0;
 }
 
 #LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv8 {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -353,6 +369,14 @@ border:solid #FC0;
 
 #LayoutDiv7 img{
 	height:150px;
+}
+
+#LayoutDiv8{
+	clear: both;
+	float: left;
+	margin-left: 25.4237%;
+	width: 49.1525%;
+	display: block;
 }
 
 }
