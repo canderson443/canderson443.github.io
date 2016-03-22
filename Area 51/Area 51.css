@@ -21,6 +21,8 @@ html{
 	padding:0;
 	margin:0;
 	text-align:center;
+	width:100%;
+	
 }
 
 .menu > ul >li{
@@ -29,7 +31,7 @@ html{
 	margin:0;
 	padding:5px;
 	width:50%;
-	border: solid thin #000;
+	border: solid thin #0C3;
 	text-align:center;
 	height:20px;
 	vertical-align:central;
@@ -37,7 +39,7 @@ html{
 }
 
 .menu > ul > li:hover, .menu > ul > .current-item > a{
-	background: #a67c52;
+	background: #0F3;
 }
 
 /*-----Bottom Level----*/
@@ -55,16 +57,16 @@ html{
 	z-index:-1;
 	opacity:0;
 	transition:opacity linear 0.15s;
-	background: #a67c52;
+	background: #000;
 	text-align:center;
-	border-top:solid #A65300 thick;
+	border-top:solid #0C3;
 }
 
 .sub-menu li{
 	display:table;
 	text-align:center;
 	width:80%;
-	border-top:solid #9f711a thin;
+	border-top:solid #0C3 thin;
 	margin:auto;
 }
 
@@ -77,7 +79,7 @@ html{
 }
 
 .sub-menu li:hover, .sub-menu .current-item a {
-	background-color: #754c24;
+	background-color: #0F6;
 }
 
 
@@ -117,21 +119,17 @@ html{
 	width: 100%;
 	display: block;
 	text-align:center;
-	background-color:grey;
+	background-color:black;
 	color:#0C3;
 	
 }
 #LayoutDiv2 {
 	clear: both;
-	
 	float: left;
-	
-	margin-left: 0;
-	
 	width: 100%;
-	
 	display: block;
-	background-color:grey;
+	background-color:black;
+	
 	
 }
 #LayoutDiv3 {
@@ -160,19 +158,78 @@ html{
 	background-color:black;
 	color:#0C3;
 	text-align:center;
-	margin-left:46px;
+	margin-left:45px;
 	margin-top: 15px;
-	height:300px;
+	height:260px;
 	border: solid #0C3;
 }
+
+#LayoutDiv5{
+	clear: both;
+	float: left;
+	display: block;
+	width: 79.1666%;
+	margin-left:45px;
+	text-aling:center;
+	color:#0C3;
+	background-color:black;
+	border:solid #0C3;
+	text-align:center;
+	margin-top:15px;
+	height:150px;
+}
+
+#LayoutDiv6{
+	clear: both;
+	float: left;
+	margin-left: 20.8333%;
+	width: 58.3333%;
+	display: block;
+	z-index:0;
+	opacity:0;
+	height:0px;
+	margin-top:-400px;
+}
+
+#LayoutDiv7{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	color:#0C3;
+	background-color:black;
+	border:solid #0C3;
+	text-align:center;
+	z-index:0;
+	opacity:0;
+	height:0;
+}
+
+#LayoutDiv8{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 79.1666%;
+	display: block;
+	z-index:0;
+	opacity:0;
+	height:0;
+}
+#LayoutDiv8 img{
+	height:300px;
+}
+
 }
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
 .gridContainer {
-	width: 90.675%;
-	padding-left: 1.1625%;
-	padding-right: 1.1625%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
 }
 #LayoutDiv1 {
 	clear: both;
@@ -180,33 +237,80 @@ html{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	text-align:center;
+	background-color:black;
+	color:#0C3;
 	
 }
 #LayoutDiv2 {
 	clear: both;
-	
 	float: left;
-	
-	margin-left: 0;
-	
 	width: 100%;
-	
 	display: block;
+	background-color:black;
+	
 	
 }
 #LayoutDiv3 {
 	clear: both;
-	
 	float: left;
-	
-	margin-left: 0;
 	
 	width: 100%;
 	margin-top:20px;
 	display: block;
+	text-align:center;
+	height:350px;
 	
 }
-#LayoutDiv4 {
+
+#LayoutDiv3 img{
+	width:100%;	
+	
+}
+
+#LayoutDiv4{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color:black;
+	color:#0C3;
+	text-align:center;
+
+	margin-top: 15px;
+	height:260px;
+	border: solid #0C3;
+}
+
+#LayoutDiv5{
+	clear: both;
+	float: left;
+	display: block;
+	width: 100%;
+	
+	text-aling:center;
+	color:#0C3;
+	background-color:black;
+	border:solid #0C3;
+	text-align:center;
+	margin-top:15px;
+	
+}
+
+#LayoutDiv6{
+	clear: both;
+	float: left;
+	margin-left: 20.8333%;
+	width: 100%;
+	display: block;
+	z-index:1;
+	opacity:1;
+	height:0px;
+	
+}
+
+#LayoutDiv7{
 	clear: both;
 	
 	float: left;
@@ -218,6 +322,20 @@ html{
 	display: block;
 	
 }
+
+#LayoutDiv8{
+	clear: both;
+	
+	float: left;
+	
+	margin-left: 0;
+	
+	width: 100%;
+	
+	display: block;
+	
+}
+
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -247,15 +365,77 @@ html{
 #LayoutDiv3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 34.0909%;
+	width: 31.8181%;
 	display: block;
+	height:300px;
+	border:solid #0C3;
 }
+#LayoutDiv3 img{
+	height:300px;
+}
+
 #LayoutDiv4 {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 31.8181%;
 	display: block;
+	margin-top:-305px;
+	height:300px;
 }
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 68.1818%;
+	width: 31.8181%;
+	display: block;
+	height:300px;
+	margin-top:-305px;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 31.8181%;
+	display: block;
+	margin-top:0px;
+	height:300px;
+	z-index:1;
+	opacity:1;
+	border:solid #0C3;
+	margin-top:15px;
+}
+#LayoutDiv6 img{
+	height:300px;
+}
+#LayoutDiv7{
+	clear: both;
+	float: left;
+	margin-left: 34.0909%;
+	width: 31.8181%;
+	display: block;
+	z-index:1;
+	opacity:1;
+	height:300px;
+	margin-top:-306px;
+}
+#LayoutDiv8{
+	clear: both;
+	float: left;
+	margin-left: 68.1818%;
+	width: 31.8181%;
+	display: block;
+	z-index:1;
+	opacity:1;
+	height:300px;
+	border:solid #0C3;
+	margin-top:-306px;
+}
+#LayoutDiv8 img{
+	height:300px;
+	width:100%;
+	
+}
+
 }
