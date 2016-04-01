@@ -41,7 +41,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     	<li>
         <a href="#">Alien Conspiricy</a>
        		<ul class="sub-menu">
-            	<li><a href="For.html">For</a></li>
+            	<li><a href="#">For</a></li>
                 <li><a href="#">Against</a></li>
                 <li><a href="#">my Opinion</a></li>
             </ul>
