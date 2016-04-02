@@ -100,7 +100,6 @@ html{
 */
 
 
-}
 
 
 /* Mobile Layout: 480px and below. */
@@ -152,7 +151,6 @@ html{
 #LayoutDiv4{
 	clear: both;
 	float: left;
-	margin-left: 0;
 	width: 79.1666%;
 	display: block;
 	background-color:black;
@@ -220,7 +218,7 @@ html{
 	height:300px;
 }
 
-}
+
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -396,10 +394,8 @@ html{
 #LayoutDiv6 {
 	clear: both;
 	float: left;
-	margin-left: 0;
 	width: 31.8181%;
 	display: block;
-	margin-top:0px;
 	height:300px;
 	z-index:1;
 	opacity:1;
