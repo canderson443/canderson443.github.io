@@ -1,0 +1,63 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="For2.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv1"><h1>Area 51</h1></div>
+</div>
+
+<div id="LayoutDiv2">
+	<div class="menu-wrap">
+	<nav class="menu">
+
+	<ul class="clearfix">
+	
+        
+    	<li>
+        <a href="#">Alien Conspiricy</a>
+       		<ul class="sub-menu">
+            	<li><a href="#">For</a></li>
+                <li><a href="#">Against</a></li>
+                <li><a href="#">my Opinion</a></li>
+            </ul>
+        </li>
+        
+        
+    	<li class="fm">
+        <a href="#">References</a>
+			<ul class="sub-menu">
+                <li><a href="#">Sources Used</a></li>
+                <li><a href="#">Other references</a></li>
+            </ul>                    
+        </li>               
+	</ul>
+	</nav>
+	</div>
+
+<div style="color:white; text-align:center;" id="LayoutDiv9"><h2>My Opinion</h2></div>
+<div style="color:white; text-align:center;" id="LayoutDiv10"><h3> I believe that there are, or has been, a particular level of alien presence within the confines of the Area 51 facility. To me, there is no doubt that aliens exist; It does not seem likely that our uncomprehendablly enormous universe is only inhabited by humans. As for Area 51, I believe that it is definitely quite possible that the government is testing some form of extraterrestrial life or technology. However, I personally don't view this alien presence in the conventional way that others do. While popel may think of the generic "bobble headed" humanoid, I feel that the aliens really being studied are small unknown specimen, such as an unidentified form of bacteria from another planet. I do not know for a fact that anything that I believe is true, but as a scientist and man of curiosity, I am genuinly hoping that there really are aliens at Area 51. Although there may not be a lot of valid evidence to support this, I still maintain the thought of an alien species among us on earth.</h3></div> 
+<div style="text-align:center;" id="LayoutDiv11"> <img src ="http://cdn.images.express.co.uk/img/dynamic/151/590x/secondary/UFO-Hillary-427995.jpg"></div>
