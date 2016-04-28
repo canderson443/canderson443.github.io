@@ -1,0 +1,142 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../Portfolio-2/Portfolio2.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+<body onload="L()">
+<script>
+function L(){
+	document.getElementById('1').style.display="block";
+	document.getElementById('2').style.display="none";
+	document.getElementById('3').style.display="none";
+}
+
+function display1(){
+	document.getElementById('1').style.display="block";
+	document.getElementById('2').style.display="none";
+	document.getElementById('3').style.display="none";
+}
+
+function display2(){
+	document.getElementById('1').style.display="none";
+	document.getElementById('2').style.display="block";
+	document.getElementById('3').style.display="none";
+}
+function display3(){
+	document.getElementById('1').style.display="none";
+	document.getElementById('2').style.display="none";
+	document.getElementById('3').style.display="block";
+	
+}
+
+</script>
+<script>
+function slideShow()
+{
+    window.setInterval("changeImage()", 500);
+}
+
+function changeImage()
+{   
+var imgSrcs[				"http://www.androidguys.com/wp-content/uploads/2015/11/best-space-view-of-earth-wallpapers-hd.jpg",
+    "http://www.24x7photography.com/wp-content/uploads/2010/10/nature-300x300.png",
+    "http://www.vivaboo.com/wp-content/uploads/2011/04/Day-end-Carbrook-Queensland-AU-Australia-cloud-tree-nature-300x300.jpg",
+    "http://michaelangell.com/wp-content/uploads/2012/02/nature3-300x300.jpg"]
+var i = Math.floor((Math.random() * 3));
+var element = document.getElementById("slideShow");
+element.src= imgSrcs[i];
+}
+
+
+</script>
+
+  <div class="gridContainer clearfix">
+  <div id="LayoutDiv1"><h1>Christian Anderson's Portfolio</h1></div>
+ 
+ 
+<div id="LayoutDiv2">
+   
+	<button onclick="display1 ()">Home</button> 
+
+	<button onclick="display2 ()">Resume</button>   
+
+	<button onclick="display3 ()">Transcript</button>
+ 
+ 
+<div id="1">
+      	<div id="LayoutDiv3">
+        	<h2>About</h2>
+            <p>My name is Christian Anderson. I am currently a senior in Stonington High School. I am interested in pursuing engineering in my future, and I plan to major in some form of engineering in college. I plan to get a bachelors degree as an engineer, and proceed to get a master's degree, or get a Proffesional Engineer license. Aside from engineering, I also enjoy music, and I play saxophone in the high school jazz band, as well as private piano lessons apart from school. </p>
+        </div>
+        
+      <div id="LayoutDiv4"><h2>Contact</h2>
+      <p>
+      	<ul>
+        	<li>Email:dude@gmail.com</li>
+            <li>Phone:(666) 666-6666</li>
+            <li>Adress:666 Devil St, Hell
+      	</ul>
+      </p>
+      </div>
+      
+      <div id="LayoutDiv5"> <p><img src="http://www.androidguys.com/wp-content/uploads/2015/11/best-space-view-of-earth-wallpapers-hd.jpg" id="slideShow"></p></div>
+    
+      <div id="LayoutDiv6"><h2>Archives</h2>
+      	<ul>
+        	<li><a href="canderson443.github.io">canderson443.github.io</a></li>
+      		<li><a href="http://canderson443.github.io/Holiday%20Site/Holiday%20site.html">http://canderson443.github.io/Holiday%20Site/Holiday%20site.html</a></li>
+            <li><a href="http://canderson443.github.io/Star%20Wars/Star%20Wars.html">http://canderson443.github.io/Star%20Wars/Star%20Wars.html</a></li>
+            <li><a href="http://canderson443.github.io/Area%2051/Area%2051.html">http://canderson443.github.io/Area%2051/Area%2051.html</a></li>
+            </ul>
+      </div>
+
+	  <div id="LayoutDiv7"><h2>Quick Links</h2>
+      <ul>
+       
+        	<li style="margin-top:30px;"> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAAahUKEwiJw4CkrrDIAhUDlB4KHd-vC70&url=http%3A%2F%2Fwww.stoningtonhigh.org%2F&usg=AFQjCNGowHJ2KvaUSN_S20oFzDeiF2eXlg&bvm=bv.104615367,d.dmo">Stonington High School</a></li>
+            <li style="margin-top:15px;"><a href="https://connection.naviance.com/family-connection/auth/login/?hsid=stonington">Naviance</a></li>
+            <li style="margin-top:15px;"><a href="https://www.codecademy.com">Codecademy</a></li>
+            <li style="margin-top:15px;"><a href="https://www.schoology.com">Schoology</a></li>
+            <li style="margin-top:15px;"><a href="https://github.com">Github</a></li>
+            
+
+   </ul>
+      </div>
+</div>
+   
+
+<div id ="2">
+	<h1>Resume</h1>
+</div>
+
+ 
+<div id="3">
+ 	<h1>Transcript</h1>
+</div>
+ 
+</div>
+</body>
+</html>

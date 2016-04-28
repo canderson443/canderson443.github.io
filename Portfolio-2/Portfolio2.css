@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+html{
+	background-image:url('http://www.massyw.com/uploadfile/2014/1004/20141004044801434.jpg');
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		7;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 86.45%;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+	background-color:#09F;
+	color:white;
+	
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.3428%;
+	padding-left: 1.3285%;
+	padding-right: 1.3285%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 10.204%;
+	width: 79.5918%;
+	display: block;
+	background-color:#09F;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 28.5714%;
+	display: block;
+	border:solid #000;
+	height:400px;
+	opacity:.7;
+	background-color:#09F;
+}
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	width: 28.5714%;
+	display: block;
+	border:solid black;
+	height:150px;
+	margin-top:10px;
+	opacity:.7;
+	text-align:left;	
+background-color:#09F;
+}
+
+#LayoutDiv4 h2{
+	text-align:center;
+}
+
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	width: 48.9795%;
+	display: block;
+	border:solid black;
+	height:350px;
+	margin-top:-571px;
+	margin-left: 30.6122%;
+	opacity:.7;
+	background-color:#09F;
+	
+}
+
+#LayoutDiv5 img {
+	height:350px;;
+	width:100%;
+	margin-top:-13px;
+}
+
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	width: 48.9795%;
+	display: block;
+	height:300px;
+	margin-left: 30.6122%;
+	margin-top:-200px;
+	border:solid black;
+	background-color:#09F;
+	opacity:.7;
+}
+
+#LayoutDiv6 li {
+	margin-top:20px;
+}
+
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 81.6326%;
+	width: 18.3673%;
+	display: block;
+	height:560px;
+	margin-top:-677px;
+	border:solid black;
+	opacity:.7;
+	text-align:left;
+	background-color:#09F;
+	text-decoration:none;
+}
+
+#LayoutDiv7 h2 {
+	text-align:center;
+}
+
+}
