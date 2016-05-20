@@ -26,7 +26,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 <![endif]-->
 
 </head>
-<body onload="L()">
+<body onload="slideShow()">
 <script>
 function L(){
 	document.getElementById('1').style.display="block";
@@ -54,20 +54,26 @@ function display3(){
 
 </script>
 <script>
-function slideShow()
-{
-    window.setInterval("changeImage()", 500);
+
+var slideShow = new array();
+slideShow("http://www.androidguys.com/wp-content/uploads/2015/11/best-space-view-of-earth-wallpapers-hd.jpg",
+    "http://www.24x7photography.com/wp-content/uploads/2010/10/nature-300x300.png",
+    "http://www.vivaboo.com/wp-content/uploads/2011/04/Day-end-Carbrook-Queensland-AU-Australia-cloud-tree-nature-300x300.jpg",
+    "http://michaelangell.com/wp-content/uploads/2012/02/nature3-300x300.jpg")
+function slideShow(){
+slideShow[1]=x
+	document.getElementById("slideShow").src = x;
+
 }
 
 function changeImage()
 {   
-var imgSrcs[				"http://www.androidguys.com/wp-content/uploads/2015/11/best-space-view-of-earth-wallpapers-hd.jpg",
-    "http://www.24x7photography.com/wp-content/uploads/2010/10/nature-300x300.png",
-    "http://www.vivaboo.com/wp-content/uploads/2011/04/Day-end-Carbrook-Queensland-AU-Australia-cloud-tree-nature-300x300.jpg",
-    "http://michaelangell.com/wp-content/uploads/2012/02/nature3-300x300.jpg"]
+var imgSrcs = new array()	
+
+
 var i = Math.floor((Math.random() * 3));
-var element = document.getElementById("slideShow");
-element.src= imgSrcs[i];
+	document.getElementById("slideShow").src = "imgSrcs[i]";
+
 }
 
 
@@ -102,7 +108,10 @@ element.src= imgSrcs[i];
       </p>
       </div>
       
-      <div id="LayoutDiv5"> <p><img src="http://www.androidguys.com/wp-content/uploads/2015/11/best-space-view-of-earth-wallpapers-hd.jpg" id="slideShow"></p></div>
+      <div id="LayoutDiv5"> <p><img id="slideShow" src="" ></p></div>
+      
+      
+
     
       <div id="LayoutDiv6"><h2>Archives</h2>
       	<ul>

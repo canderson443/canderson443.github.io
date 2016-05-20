@@ -177,6 +177,7 @@ html{
 	width: 100%;
 	display: block;
 	text-align:center;
+	color:white;
 }
 #LayoutDiv3 {
 	clear: both;
@@ -186,8 +187,9 @@ html{
 	display: block;
 	border:solid #000;
 	height:400px;
-	opacity:.7;
+	opacity:.8;
 	background-color:#09F;
+	color:white;
 }
 #LayoutDiv4 {
 	clear: both;
@@ -197,9 +199,10 @@ html{
 	border:solid black;
 	height:150px;
 	margin-top:10px;
-	opacity:.7;
+	opacity:.8;
 	text-align:left;	
 background-color:#09F;
+color:white;
 }
 
 #LayoutDiv4 h2{
@@ -215,8 +218,9 @@ background-color:#09F;
 	height:350px;
 	margin-top:-571px;
 	margin-left: 30.6122%;
-	opacity:.7;
+	opacity:.8;
 	background-color:#09F;
+	color:white;
 	
 }
 
@@ -236,7 +240,8 @@ background-color:#09F;
 	margin-top:-200px;
 	border:solid black;
 	background-color:#09F;
-	opacity:.7;
+	opacity:.8;
+	color:white;
 }
 
 #LayoutDiv6 li {
@@ -252,14 +257,19 @@ background-color:#09F;
 	height:560px;
 	margin-top:-677px;
 	border:solid black;
-	opacity:.7;
+	opacity:.8;
 	text-align:left;
 	background-color:#09F;
 	text-decoration:none;
+	color:white;
 }
 
 #LayoutDiv7 h2 {
 	text-align:center;
+}
+
+button{
+	background-color:#6FC;
 }
 
 }
