@@ -602,6 +602,8 @@ html{
 	-webkit-transform:rotate(-30deg);
 	-moz-transfrom-origin:center;
 	-moz-transform:rotate(-30deg);
+	height:200px;
+	width:250px;
 }
 
 #LayoutDiv11{

@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+html{
+	background-image:url('http://maggiecordova.com/300px-NewYorkYankees_caplogo.svg.png');
+}
+
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 86.45%;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv8 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv8 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.5%;
+	max-width: 1232px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+	color:#069;
+	background-color:white;
+	
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 8.4745%;
+	width: 23.7288%;
+	display: block;
+	background-color:white;
+	margin-top:20px;
+	height:460px;
+}
+
+#LayoutDiv2 h2{
+	text-align:center;
+}
+
+#LayoutDiv3{
+	clear: both;
+	float: left;
+	margin-left: 67.7966%;
+	width: 23.7288%;
+	display: block;
+	margin-top:-460px;
+	height:140px;
+	background-color:white;
+}
+
+#LayoutDiv3 h2{
+	text-align:center;
+}
+
+#LayoutDiv4{
+	clear: both;
+	float: left;
+	margin-left: 67.7966%;
+	width: 23.7288%;
+	display: block;
+	background-color:white;
+	margin-top:-300px;
+}
+
+#LayoutDiv4 h2{
+	text-align:center;
+}
+
+#LayoutDiv5{
+	clear: both;
+	float: left;
+	margin-left: 8.4745%;
+	width: 23.7288%;
+	display: block;
+	background-color:white;
+	margin-top:20px;
+}
+
+#LayoutDiv5 h2{
+	text-align:center;
+}
+
+#LayoutDiv6{
+	clear: both;
+	float: left;
+	margin-left: 67.7966%;
+	width: 23.7288%;
+	display: block;
+	background-color:white;
+	margin-top:-100px;
+}
+
+#LayoutDiv6 h2{
+	text-align:center;
+}
+
+#LayoutDiv7{
+	clear: both;
+	float: left;
+	margin-left: 33.8983%;
+	width: 32.2033%;
+	display: block;
+	margin-top:-660px;
+}
+
+#LayoutDiv8{
+	clear: both;
+	float: left;
+	margin-left: 33.8983%;
+	width: 32.2033%;
+	display: block;
+	margin-top:-270px;
+}
+
+}
