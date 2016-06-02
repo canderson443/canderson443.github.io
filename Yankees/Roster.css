@@ -46,6 +46,8 @@ html{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	background-color:white;
+	text-align:center;
 }
 #LayoutDiv2 {
 	clear: both;
@@ -53,6 +55,8 @@ html{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	background-color:white;
+	margin-top:20px;
 }
 #LayoutDiv3 {
 	clear: both;
@@ -60,6 +64,8 @@ html{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	background-color:white;
+	margin-top:20px;
 }
 #LayoutDiv4 {
 	clear: both;
@@ -67,6 +73,8 @@ html{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	background-color:white;
+	margin-top:20px;
 }
 #LayoutDiv5 {
 	clear: both;
@@ -74,6 +82,8 @@ html{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	background-color:white;
+	margin-top:20px;
 }
 #LayoutDiv6 {
 	clear: both;
@@ -81,6 +91,9 @@ html{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	background-color:white;
+	margin-top:20px;
+	
 }
 #LayoutDiv7 {
 	clear: both;
@@ -88,6 +101,7 @@ html{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	margin-top:20px;
 }
 #LayoutDiv8 {
 	clear: both;
@@ -95,6 +109,7 @@ html{
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	margin-top:20px;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */

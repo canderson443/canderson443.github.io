@@ -288,6 +288,7 @@ html{
 	height:20px;
 	background-color:white;
 	border:solid thin black;
+	text-align:center;
 }
 
 #LayoutDiv6 h3{
@@ -314,12 +315,11 @@ html{
 #LayoutDiv8{
 	clear: both;
 	float: left;
-	margin-left: 30px;;
 	width: 32.2033%;
 	display: block;
 	height:200px;
 	text-align:center;
-	margin-top:-400px;
+	margin-top:-820px;
 	
 	
 }
@@ -327,11 +327,11 @@ html{
 #LayoutDiv8 img{
 	height:200px;
 	-ms-transform-origin:center;
-	-ms-transform:rotate(30deg);
+	-ms-transform:rotate(0deg);
 	-webkit-transform-origin:center;
-	-webkit-transform:rotate(30deg);
+	-webkit-transform:rotate(0deg);
 	-moz-transfrom-origin:center;
-	-moz-transform:rotate(30deg);
+	-moz-transform:rotate(0deg);
 	width:250px;
 	
 }
@@ -360,16 +360,18 @@ html{
 	display: block;
 	height:200px;
 	text-align:center;
-	margin-top:-400px;
+	margin-top:-820px;
 }
 
 #LayoutDiv10 img{
 	-ms-transform-origin:center;
-	-ms-transform:rotate(-30deg);
+	-ms-transform:rotate(0deg);
 	-webkit-transform-origin:center;
-	-webkit-transform:rotate(-30deg);
+	-webkit-transform:rotate(0deg);
 	-moz-transfrom-origin:center;
-	-moz-transform:rotate(-30deg);
+	-moz-transform:rotate(0deg);
+	height:200px;
+	width:250px;
 }
 
 #LayoutDiv11{
@@ -378,8 +380,8 @@ html{
 	margin-left: 0;
 	width: 32.2033%;
 	display: block;
-	height:200px;
-	margin-top:-840px;
+	height:360px;
+	margin-top:-490px;
 	text-align:center;
 	border:solid #069;
 	color:#069;
@@ -392,8 +394,8 @@ html{
 	margin-left: 67.7966%;
 	width: 32.2033%;
 	display: block;
-	height:200px;
-	margin-top:-840px;
+	height:360px;
+	margin-top:-490px;
 	text-align:center;
 	border:solid #069;
 	color:#069;
@@ -551,7 +553,7 @@ html{
 	display: block;
 	height:200px;
 	text-align:center;
-	margin-top:-400px;
+	margin-top:-820px;
 	
 	
 }
@@ -559,11 +561,11 @@ html{
 #LayoutDiv8 img{
 	height:200px;
 	-ms-transform-origin:center;
-	-ms-transform:rotate(30deg);
+	-ms-transform:rotate(0deg);
 	-webkit-transform-origin:center;
-	-webkit-transform:rotate(30deg);
+	-webkit-transform:rotate(0deg);
 	-moz-transfrom-origin:center;
-	-moz-transform:rotate(30deg);
+	-moz-transform:rotate(0deg);
 	width:250px;
 	
 }
@@ -592,16 +594,16 @@ html{
 	display: block;
 	height:200px;
 	text-align:center;
-	margin-top:-400px;
+	margin-top:-820px;
 }
 
 #LayoutDiv10 img{
 	-ms-transform-origin:center;
-	-ms-transform:rotate(-30deg);
+	-ms-transform:rotate(0deg);
 	-webkit-transform-origin:center;
-	-webkit-transform:rotate(-30deg);
+	-webkit-transform:rotate(0deg);
 	-moz-transfrom-origin:center;
-	-moz-transform:rotate(-30deg);
+	-moz-transform:rotate(0deg);
 	height:200px;
 	width:250px;
 }
@@ -612,8 +614,8 @@ html{
 	margin-left: 0;
 	width: 32.2033%;
 	display: block;
-	height:200px;
-	margin-top:-840px;
+	height:360px;
+	margin-top:-490px;
 	text-align:center;
 	border:solid #069;
 	color:#069;
@@ -626,8 +628,8 @@ html{
 	margin-left: 67.7966%;
 	width: 32.2033%;
 	display: block;
-	height:200px;
-	margin-top:-840px;
+	height:360px;
+	margin-top:-490px;
 	text-align:center;
 	border:solid #069;
 	color:#069;
